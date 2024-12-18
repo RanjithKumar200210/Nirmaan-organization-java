@@ -11,7 +11,15 @@ public static void main(String args[]) {
 System.out.println(calc.add(first, second));
 System.out.println(calc.sub(first, second));
 System.out.println(calc.mul(first, second));
-System.out.println(calc.div(first, second));
+try {
+	System.out.println(calc.div(first, second));
+}catch(Exception r) {
+	System.out.println(r); 
+}
+
+
+
+
 
 
 
